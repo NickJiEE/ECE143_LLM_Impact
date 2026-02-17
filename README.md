@@ -49,7 +49,7 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
    - [ ] Establish pre-LLM baseline metrics
 
 4. **LLM Release Date Mapping**
-   - [ ] Identify major LLM release dates and events
+   - [x] Identify major LLM release dates and events
    - [ ] Map release dates to grade distribution plots
    - [ ] Conduct temporal analysis
 
