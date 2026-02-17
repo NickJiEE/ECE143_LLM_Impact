@@ -102,7 +102,7 @@ uv sync
 ```
 
 ## Usage
-To launch, please run using jupyter notebook using the following
+To launch, please run using jupyter notebook using the following. This will launch a new browser window with the notebooks available in the `notebooks` directory
 ```bash
 uv run --with jupyter jupyter lab
 ```
