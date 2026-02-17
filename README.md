@@ -36,8 +36,8 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
 
 1. **Repository Setup & Toolkit Identification**
    - [x] Repository initialization
-   - [ ] Select data analysis libraries and tools
-   - [ ] Set up development environment
+   - [x] Select data analysis libraries and tools
+   - [x] Set up development environment
 
 2. **Data Extraction & Cleaning (ETL Pipeline)**
    - [ ] Extract data from primary and supplementary sources
@@ -69,22 +69,52 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
 
 ## Repository Structure
 ```
-[TODO: Add directory structure]
+├───data
+│       capes_data.csv
+│
+├───notebooks
+│       import.ipynb
+│
+├───src
+│       testmodule.py
+│       __init__.py
+│
+└───tests
+        .gitkeep
 ```
 
 ## Installation
+First, clone the repository via
 ```bash
-[TODO: Add installation instructions]
+git clone https://github.com/NickJiEE/ECE143_LLM_Impact.git
+```
+Next, please install uv if you do not have this. Used for dependency and version management
+```bash
+# For mac/linux
+curl -LsSf https://astral.sh/uv/install.sh | sh 
+
+# For windows
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex" 
+```
+While in the project directory, run the following to sync your environment with needed dependencies
+```bash
+uv sync
 ```
 
 ## Usage
+To launch, please run using jupyter notebook using the following
 ```bash
-[TODO: Add usage examples]
+uv run --with jupyter jupyter lab
 ```
-
+When making commits, please run the following right before you do so in order to wipe jupyter notebook outputs
+```bash
+uv run nbstripout --install
+```
 ## Dependencies
 ```
-[TODO: List required Python packages and versions]
+pandas # for data manipulation, cleaning, and analysis
+pytest # for creating unit tests
+nbstripout # for removing jupyter-notebook outputs in repo
 ```
 
 ## Team Members
@@ -93,11 +123,6 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
 - Matthew Merioles
 - Minghong Sun
 - Nick Ji
-
-## Contributing
-```
-[TODO]
-```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
