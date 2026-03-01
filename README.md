@@ -39,13 +39,12 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
    - [x] Select data analysis libraries and tools
    - [x] Set up development environment
 
-2. **Data Extraction & Cleaning (ETL Pipeline)**
-   - [ ] Extract data from primary and supplementary sources
-   - [ ] Clean and normalize data
-   - [ ] Build ETL pipeline
+2. **Data Extraction & Cleaning**
+   - [x] Extract data from primary and supplementary sources
+   - [x] Clean and normalize data
 
 3. **Historical Baseline Analysis**
-   - [ ] Plot overall historical grade distribution trends
+   - [x] Plot overall historical grade distribution trends
    - [ ] Establish pre-LLM baseline metrics
 
 4. **LLM Release Date Mapping**
@@ -54,21 +53,22 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
    - [ ] Conduct temporal analysis
 
 5. **Feature-Based Filtering & Analysis**
-   - [ ] Filter by department
+   - [x] Filter by department
    - [ ] Filter by professor
    - [ ] Analyze upper vs. lower division patterns
 
 6. **Sub-Hypothesis Exploration**
-   - [ ] Cross-reference additional datasets
+   - [x] Cross-reference additional datasets
    - [ ] Investigate secondary research questions
 
-7. **Testing, Documentation & CI/CD**
+7. **Testing, Documentation**
    - [ ] Write unit tests
    - [ ] Complete documentation
-   - [ ] Set up continuous integration
+   - [x] Set up continuous integration
 
 ## Repository Structure
 ```
+root
 ├───data
 │       capes_data.csv
 │
@@ -115,6 +115,8 @@ uv run nbstripout --install
 pandas # for data manipulation, cleaning, and analysis
 pytest # for creating unit tests
 nbstripout # for removing jupyter-notebook outputs in repo
+matplotlib # plotting
+seaborn # more visualization
 ```
 
 ## Team Members
