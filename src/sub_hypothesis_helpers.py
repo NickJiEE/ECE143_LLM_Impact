@@ -29,8 +29,8 @@ def prepare_class_size_frame(df: pd.DataFrame, max_enrollment: int = 500) -> pd.
 def plot_class_size_hexbin(df_size: pd.DataFrame, save_path: str | Path) -> None:
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     specs = [
-        (axes[0], "Pct_Rec_Class", "Enrollment vs % Recommend Class", "steelblue"),
-        (axes[1], "Pct_Rec_Prof", "Enrollment vs % Recommend Professor", "coral"),
+        (axes[0], "Pct_Rec_Class", "Enrollment vs % Recommend Class", "Blues"),
+        (axes[1], "Pct_Rec_Prof", "Enrollment vs % Recommend Professor", "Oranges"),
     ]
     for ax, y_col, title, cmap in specs:
         hb = ax.hexbin(df_size["Total Enrolled in Course"], df_size[y_col], gridsize=30, cmap=cmap, mincnt=1)
