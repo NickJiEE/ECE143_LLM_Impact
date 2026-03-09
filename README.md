@@ -45,24 +45,24 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
 
 3. **Historical Baseline Analysis**
    - [x] Plot overall historical grade distribution trends
-   - [ ] Establish pre-LLM baseline metrics
+   - [x] Establish pre-LLM baseline metrics
 
 4. **LLM Release Date Mapping**
    - [x] Identify major LLM release dates and events
-   - [ ] Map release dates to grade distribution plots
-   - [ ] Conduct temporal analysis
+   - [x] Map release dates to grade distribution plots
+   - [x] Conduct temporal analysis
 
 5. **Feature-Based Filtering & Analysis**
    - [x] Filter by department
    - [ ] Filter by professor
-   - [ ] Analyze upper vs. lower division patterns
+   - [x] Analyze upper vs. lower division patterns
 
 6. **Sub-Hypothesis Exploration**
    - [x] Cross-reference additional datasets
-   - [ ] Investigate secondary research questions
+   - [x] Investigate secondary research questions
 
 7. **Testing, Documentation**
-   - [ ] Write unit tests
+   - [x] Write unit tests
    - [ ] Complete documentation
    - [x] Set up continuous integration
 
