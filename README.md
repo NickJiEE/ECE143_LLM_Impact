@@ -54,7 +54,7 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
 
 5. **Feature-Based Filtering & Analysis**
    - [x] Filter by department
-   - [ ] Filter by professor
+   - [x] Filter by professor
    - [x] Analyze upper vs. lower division patterns
 
 6. **Sub-Hypothesis Exploration**
@@ -63,7 +63,7 @@ This project analyzes the effect of Large Language Models (LLMs) on UCSD student
 
 7. **Testing, Documentation**
    - [x] Write unit tests
-   - [ ] Complete documentation
+   - [x] Complete documentation
    - [x] Set up continuous integration
 
 ## Repository Structure
